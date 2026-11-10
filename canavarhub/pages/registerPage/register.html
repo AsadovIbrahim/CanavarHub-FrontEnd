@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="az">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CanavarHub | Qeydiyyat</title>
+    <meta
+      name="description"
+      content="CanavarHub platformasında qeydiyyatdan keç və şəxsi inkişaf proqramına başla."
+    />
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="./register.css" />
+  </head>
+  <body>
+    <main class="register-page">
+      <section class="register-card">
+        <a href="../../index.html" class="register-logo">
+          CANAVAR<span>HUB</span>
+        </a>
+
+        <h1>Yeni hesab yarat</h1>
+        <p>Təlim səviyyəni seç və inkişaf yoluna başla.</p>
+
+        <form class="register-form">
+          <div class="form-group">
+            <label> Ad </label>
+            <input type="text" placeholder="Adınız" />
+            <span class="error-message"></span>
+          </div>
+
+          <div class="form-group">
+            <label> Soyad </label>
+            <input type="text" placeholder="Soyadınız" />
+            <span class="error-message"></span>
+          </div>
+
+          <div class="form-group">
+            <label> Email </label>
+            <input type="email" placeholder="email@example.com" />
+            <span class="error-message"></span>
+          </div>
+
+          <div class="form-group">
+            <label> Şifrə </label>
+            <input type="password" placeholder="********" />
+            <span class="error-message"></span>
+          </div>
+
+          <div class="form-group">
+            <label> Yaş </label>
+            <input type="number" placeholder="Yaşınız" />
+            <span class="error-message"></span>
+          </div>
+
+          <div class="form-group">
+            <label> İngilis dili səviyyəniz </label>
+            <select>
+              <option disabled selected value="">Səviyyə seç</option>
+              <option>A1 - Başlanğıc</option>
+              <option>A2 - Təməl</option>
+              <option>B1 - Orta</option>
+              <option>B2 - Yuxarı orta</option>
+              <option>C1 - Sərbəst</option>
+            </select>
+            <span class="error-message"></span>
+          </div>
+
+          <div class="form-group">
+            <label> Əsas məqsədiniz </label>
+            <select>
+              <option disabled selected value="">Seçin</option>
+              <option>İngilis dili öyrənmək</option>
+              <option>Şahmat inkişafı</option>
+              <option>Məntiq bacarıqları</option>
+              <option>Ümumi inkişaf</option>
+            </select>
+            <span class="error-message"></span>
+          </div>
+
+          <div class="form-group">
+            <label> Gündə neçə dəqiqə məşq edə bilərsiniz? </label>
+            <select>
+              <option disabled selected value="">Seçin</option>
+              <option>15 dəqiqə</option>
+              <option>30 dəqiqə</option>
+              <option>1 saat</option>
+              <option>2 saat+</option>
+            </select>
+            <span class="error-message"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary">
+            Qeydiyyatdan keç
+          </button>
+        </form>
+
+        <a href="../loginPage/login.html" class="back-login"> Artıq hesabım var </a>
+      </section>
+    </main>
+
+    <script src="./register.js"></script>
+  </body>
+</html>
